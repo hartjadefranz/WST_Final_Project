@@ -1,0 +1,179 @@
+
+
+ head {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background: #0b0c2a;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #101134;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .explore-btn {
+    background-color: #5d2eff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .hero-buttons button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .wallet-btn {
+    background-color: #5d2eff;
+    color: white;
+  }
+  
+  .learn-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+  }
+
+  
+  .hero-img img {
+    max-width: 400px;
+    border-radius: 20px;
+  }
+  
+  .features {
+    text-align: center;
+    padding: 60px 30px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .card {
+    background: #1a1c44;
+    padding: 30px;
+    border-radius: 20px;
+    width: 30%;
+    transition: transform 0.3s ease;
+    margin: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+
+  .card a {
+    color: #9b5bff;
+    text-decoration: none;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #101134;
+    font-weight: 600;
+  }
+  
+  .highlight {
+    color:rgb(198, 11, 11);
+  }
+  
+  .dotatxt {
+    font-size: 48px;
+  }
+
+  .agi {
+   height:75px;
+   weight:75px;
+  }
+
+  .agihero {
+    height:175px;
+    weight:350px;
+  }
+
+ 
+  .strength {
+    height:75px;
+    weight:75px;
+  } 
+
+  .strhero {
+    height: 170px;
+    weight: 380px;
+  }
+
+  .but {
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+  .int {
+      height:75px;
+      weight:75px;
+  }
+
+  .inthero {
+    height: 170px;
+    weight: 380px;
+  }
+
+  .buttons {
+    margin-left: 50px ;
+    margin-top: 200px;
+  }
+
+  .sign-up {
+    margin-left: 25px;
+  }
+
+  .hayag {
+    color: blue;
+  }

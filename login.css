@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Image/loginbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.auth-box {
+    background-color: #2a2a2a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #444;
+    border: 1px solid #666;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e97c00;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    .auth-box {
+        width: 90%;
+    }
+}
+
+.login {
+    text-align: center;
+}
+
+.highlight {
+    color:rgb(198, 11, 11);
+    font-size: 34px;
+}
